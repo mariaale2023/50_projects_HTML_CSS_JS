@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.ch1 {
+  background-image: url("IMG/train2.jpg");
+  background-color: #cccccc;
+}
+
+.ch2 {
+  background-image: url("IMG/akaroa.jpg");
+  background-color: #cccccc;
+}
+
+.ch3 {
+  background-image: url("IMG/newBrigton.jpg");
+  background-color: #cccccc;
+}
+.ch4 {
+  background-image: url("IMG/shops.jpg");
+  background-color: #cccccc;
+}
+.ch5 {
+  background-image: url("IMG/trakking.jpg");
+  background-color: #cccccc;
+}
+.ch6 {
+  background-image: url("IMG/summer.jpg");
+  background-color: #cccccc;
+}
+
+.container {
+  display: flex;
+  width: 90vw;
+}
+
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
