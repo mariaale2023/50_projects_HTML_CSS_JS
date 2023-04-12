@@ -1,0 +1,92 @@
+/* 
+COLORS
+
+#AF87CE
+#EA1A7F
+#FEC603
+#A8F387
+#16D6FA
+
+*/
+
+:root {
+  --shadow: 5px 7px 2px #04000d;
+  --border-radius: 0.5rem;
+  /* form violete to pink */
+  --background-color: linear-gradient(to top right, rgb(175, 135, 206) #ea1a7f);
+  --color: linear-gradient(to top right, #af87ce rgb(234, 26, 127));
+  --button-background1: #fec603;
+  --button-background2: #ea1a7f;
+  --button-background3: #16d6fa;
+  --color1: rgb(175, 135, 206);
+  --color2: #ea1a7f;
+  --color3: #fec603;
+  --color4: #a8f387;
+  --color5: #16d6fa;
+}
+
+.container {
+  /* este container es para centrar una seccion o un algpo al medio */
+
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+
+.section-hero {
+  background-image: linear-gradient(
+      to top right,
+      rgba(8, 129, 150, 0.3),
+      rgba(175, 135, 206, 0.3)
+    ),
+    url(3_Rotating_Navigation/onbording_picture.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+
+  height: 100vh;
+}
+
+.hero {
+  margin: 0 auto;
+  display: grid;
+  padding-top: 8rem;
+  text-align: center;
+}
+
+.hero-text h1 {
+  /* color: #fff; */
+  font-size: 7rem;
+
+  margin: 0 auto;
+  padding: 2rem;
+  /* border: 1px solid #ea1a7f; */
+  /* background-color: rgb(234, 26, 127, 0.1); */
+
+  /* Neon letter */
+  color: #703e95;
+  text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 12px #fff, 0 0 16px #ea1a7f,
+    0 0 28px #ea1a7f, 0 0 32px #ea1a7f, 0 0 40px #ea1a7f, 0 0 60px #ea1a7f;
+}
+
+.button-box-grid {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  margin: 4rem;
+  gap: 2rem;
+}
+button {
+  border-radius: var(--border-radius);
+  padding: 0.5rem 2rem;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-1 {
+  background-color: var(--button-background1);
+}
+
+.btn-2 {
+  background-color: var(--button-background3);
+}
