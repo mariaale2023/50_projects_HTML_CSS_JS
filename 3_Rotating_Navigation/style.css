@@ -101,12 +101,11 @@ html {
   outline: none;
 }
 .circle button#open {
-  left: 55%;
-  top: 45%;
+  left: 60%;
 }
 
 .circle button#close {
-  top: 50%;
+  top: 60%;
   transform: rotate(90deg);
   transform-origin: top left;
 }
@@ -145,6 +144,7 @@ nav ul li {
   transition: transform 0.4s ease-in;
 }
 
+/* nav list in diagonal line */
 nav ul li + li {
   margin-left: 1.5rem;
   transform: translateX(-150%);
@@ -159,8 +159,6 @@ nav ul li i {
   font-size: 2.5rem;
   margin-right: 1rem;
 }
-
-/* nav list in diagonal line */
 
 .section-hero {
   width: 100%;
@@ -210,27 +208,6 @@ nav ul li i {
   color: #703e95;
   text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 12px #fff, 0 0 16px #ea1a7f,
     0 0 28px #ea1a7f, 0 0 32px #ea1a7f, 0 0 40px #ea1a7f, 0 0 60px #ea1a7f;
-}
-
-.button-box-grid {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  margin: 4rem;
-  gap: 2rem;
-}
-button {
-  border-radius: var(--border-radius);
-  padding: 0.5rem 2rem;
-  border: none;
-  font-weight: bold;
-}
-
-.btn-1 {
-  background-color: var(--button-background1);
-}
-
-.btn-2 {
-  background-color: var(--button-background3);
 }
 
 .backgroung-blue {
