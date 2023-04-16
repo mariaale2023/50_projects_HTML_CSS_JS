@@ -43,3 +43,55 @@ body {
 
   background-image: linear-gradient(90deg, var(--color2), var(--color3));
 }
+
+.search {
+  position: relative;
+  height: 5rem;
+}
+
+.search .input {
+  background-color: #fff;
+  border: 0;
+  font-size: 1.8rem;
+  padding: 1.5rem;
+  height: 5rem;
+  width: 5rem;
+
+  /* 
+  
+    Linear: Constant speed transition.
+    Ease: Gradual acceleration and deceleration.
+    Ease-in: Slow start, faster end.
+    Ease-out: Fast start, slower end.
+    Ease-in-out: Slow start and end, faster middle.
+    Cubic-bezier: Custom transition curve.
+
+*/
+  transition: width 0.3s ease;
+  /* transition: width 0.3s linear; */
+  /* transition: width 0.3s ease-in; */
+  /* transition: width 0.3s ease-in-out; */
+  /* transition: width 0.3s cubic-bezier; */
+}
+
+.btn {
+  background-color: #fff;
+  border: 0;
+  cursor: pointer;
+  font-size: 2.4rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5rem;
+  width: 5rem;
+  transition: transform 0.3s ease;
+}
+
+.btn:focus,
+.input:focus {
+  outline: none;
+}
+
+.search.active input {
+  width: 20rem;
+}
