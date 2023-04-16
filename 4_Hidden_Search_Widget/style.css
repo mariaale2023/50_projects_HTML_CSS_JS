@@ -53,6 +53,7 @@ body {
 .search .input {
   background-color: #fff;
   border: 0;
+  border-radius: 1rem;
   font-size: 1.8rem;
   padding: 1.5rem;
   height: 5rem;
@@ -78,6 +79,7 @@ body {
 .btn {
   background-color: #fff;
   border: 0;
+  border-radius: 1rem;
   cursor: pointer;
   font-size: 2.4rem;
   position: absolute;
@@ -93,15 +95,15 @@ body {
   outline: none;
 }
 
-/* .search.active {
-  transform: translateX(-1.5rem);
-} */
+.search.active {
+  transform: translateX(-2rem);
+}
 
 .search.active input {
-  width: 20rem;
+  width: 25rem;
 }
 .search.active .btn {
-  transform: translateX(19rem);
+  transform: translateX(23rem);
 
   /* transform: translateY(198px); */
   /* transform:perspective(3rem); */
