@@ -1,5 +1,20 @@
 # HTML_CSS_JS-project-UDEMY
 
-Part of the Udemy Course Building 50 quick, unique & fun mini projects with HTML, CSS and JS.
+Welcome to my repository, part of the Udemy Course Building 50 quick, unique & fun mini projects with HTML, CSS and JS, where you will find 50 exciting and unique projects built with JS, HTML and CSS! I will be creating one project every day throughout the year 2023, but with a little twist to add my own style and flair.
 
-This has been an awesome course. I took this course so that I can build some random components each day to practice my coding skills, however, this course has helped me not only do that but I learned a lot of ne things which I did not initially know. I also build some awesome projects which were very fun to build. Great course, would highly recommend to anyone trying to improve their skills or just have fun!
+This course has been an absolute blast! My original intention was to build random components daily to improve my coding skills, but it ended up being so much more. I learned countless new things and had a ton of fun building some truly awesome projects. I highly recommend this course to anyone who wants to enhance their coding abilities or simply have a good time!
+
+## What I'll learn
+
+- Project based teaching to sharpen my HTML, CSS & JavaScript skills
+- Perfect for my beginners skill to build unique projects in a short timeframe
+- Modern styling with flexbox, CSS animations, custom properties, etc
+- DOM manipulation, events, array methods, HTTP requests & more
+
+## Mini Projects
+
+1.
+
+## Reference links
+
+(50 Projects In 50 Days - HTML, CSS & JavaScript)[https://www.udemy.com/course/50-projects-50-days/] - by Brad Traversy
