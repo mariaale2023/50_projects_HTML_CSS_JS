@@ -13,7 +13,9 @@ This course has been an absolute blast! My original intention was to build rando
 
 ## Mini Projects
 
-1.
+1. Expanding Cards
+2. Rodatating Navigation
+3. Hidden Serach Widget
 
 ## Reference links
 
