@@ -1,3 +1,15 @@
+/*
+
+COLORS
+
+#AF87CE
+#EA1A7F
+#FEC603
+#A8F387
+#16D6FA
+
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
 
 * {
@@ -21,4 +33,32 @@ body {
 
   height: 100vh;
   overflow: hidden;
+
+  background-color: #fec803;
+}
+
+h1 {
+  margin: 1rem;
+}
+
+.box-color-1 {
+  background-color: #af87ce;
+}
+
+.box-color-2 {
+  background-color: #16d6fa;
+}
+.box-color-3 {
+  background-color: #ea1a7f;
+}
+.box {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40rem;
+  height: 20rem;
+  margin: 1rem;
+  border-radius: 5px;
+  box-shadow: 2px 4px 5px rgb(0, 0, 0, 0.7);
 }
