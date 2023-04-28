@@ -14,8 +14,13 @@ This course has been an absolute blast! My original intention was to build rando
 ## Mini Projects
 
 1. Expanding Cards
-2. Rodatating Navigation
-3. Hidden Serach Widget
+2. Progress Step
+3. Rodatating Navigation
+4. Hidden Serach Widget
+5. Blurry Loading
+6. Scroll Animation
+7. Split Landing Page
+8. Form Wave Animation
 
 ## Reference links
 
