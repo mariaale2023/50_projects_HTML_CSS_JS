@@ -36,33 +36,6 @@ body {
   text-decoration: none;
   color: lightblue;
 }
-
-.form-control {
-  position: relative;
-  margin: 2rem 0 4rem;
-  width: 25rem;
-}
-
-.form-control input {
-  background-color: transparent;
-  border: 0;
-  border-bottom: 2px #fff solid;
-  display: block;
-  width: 100%;
-  padding: 1.5rem 0;
-  font-size: 1.8rem;
-  color: #fff;
-  margin-bottom: 0.5rem;
-}
-
-.form-control input:focus,
-.form-control input:valid {
-  outline: 0;
-}
-
-.form-control label {
-  font-size: 1.2rem;
-}
 .btn {
   cursor: pointer;
   display: inline-block;
@@ -85,4 +58,46 @@ body {
 
 .text {
   margin-top: 2.5rem;
+}
+.form-control {
+  position: relative;
+  margin: 2rem 0 4rem;
+  width: 25rem;
+}
+
+.form-control input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #fff solid;
+  display: block;
+  width: 100%;
+  padding: 1.5rem 0;
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+  border-bottom-color: lightblue;
+}
+
+.form-control label {
+  position: absolute;
+  top: 1.5rem;
+  left: 0;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 1.8rem;
+  min-width: 0.5rem;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.26, 1.55);
+}
+
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+  color: lightblue;
+  transform: translateY(-3rem);
 }
